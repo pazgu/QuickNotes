@@ -1,16 +1,40 @@
-# React + Vite
+# 📝 QuickNotes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **QuickNotes**, a modern, responsive, and feature-rich note-taking application built with React and Vite. This project allows users to seamlessly create, edit, delete, and organize their personal and professional notes.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+🔗 **[View Live Application](https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/)** *(Note: Replace with your actual GitHub Pages link after Step 6)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Dynamic Note Creation:** Add notes with automated, human-readable creation dates (e.g., *Aug 31th 12:30 PM*).
+- **Optional Titles & Categorization:** Organize notes by categories (Personal, Work, etc.) with custom color-coded backgrounds.
+- **Persistent Storage:** Integrated with `localStorage` so your notes survive page reloads.
+- **Advanced Editing:** Click any note to open a popup modal to edit the title or body, complete with a "Last Updated" timestamp.
+- **Smart Filtering & Search:** Real-time search bar to filter notes by title or content, plus quick filter buttons per category.
+- **Elastic Textarea:** The note creation form auto-resizes dynamically as you type.
+- **Safe Deletion:** Prompt-guarded note removal to avoid accidental deletions.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack & Libraries
+
+- **Frontend:** React (Functional Components & Hooks / Class Components)
+- **Build Tool:** Vite
+- **Styling:** CSS Grid & Flexbox (Responsive Design)
+- **State Management:** React useState & useEffect
+- **Libraries used:**
+  - `React-Modal` / `Mantine` (for smooth modal popups)
+  - `Date-fns` / Native JS Date (for beautiful date formatting)
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository:**
+   ```bash
+git clone https://github.com/pazgu/QuickNotes.git
